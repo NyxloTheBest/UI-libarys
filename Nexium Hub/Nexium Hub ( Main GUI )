@@ -1,4 +1,4 @@
--- NIGGER
+-- vars
 
 local lib = {}
 local sections = {}
@@ -100,7 +100,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     main.Name = "main"
     main.Parent = scrgui
     main.AnchorPoint = Vector2.new(0.5, 0.5)
-    main.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- changed to black
+    main.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- changed to black
     main.BackgroundTransparency = 0.150
     main.Position = UDim2.new(0.5, 0, 2, 0)
     main.Size = UDim2.new(0, 721, 0, 584)
@@ -151,7 +151,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local workarea = Instance.new("Frame")
     workarea.Name = "workarea"
     workarea.Parent = main
-    workarea.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- changed to black
+    workarea.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- changed to black
     workarea.Position = UDim2.new(0.36403501, 0, 0, 0)
     workarea.Size = UDim2.new(0, 458, 0, 584)
 
@@ -538,7 +538,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     notif2button2.BackgroundColor3 = Color3.fromRGB(21, 103, 251)
     notif2button2.BackgroundTransparency = 1
     notif2button2.Position = UDim2.new(0.0526315793, 0, 0.842541456, 0)
-    notif2button2.Size = UDim2.new(0, 270, 0, 400)
+    notif2button2.Size = UDim2.new(0, 270, 0, 40)
     notif2button2.ZIndex = 3
     notif2button2.Font = Enum.Font.Gotham
     notif2button2.Text = "Go away."
