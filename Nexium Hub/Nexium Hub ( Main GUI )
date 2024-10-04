@@ -173,7 +173,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local search = Instance.new("Frame")
     search.Name = "search"
     search.Parent = main
-    search.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    search.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     search.Position = UDim2.new(0.0256588068, 0, 0.0958904102, 0)
     search.Size = UDim2.new(0, 225, 0, 34)
 
@@ -196,7 +196,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local searchtextbox = Instance.new("TextBox")
     searchtextbox.Name = "searchtextbox"
     searchtextbox.Parent = search
-    searchtextbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    searchtextbox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     searchtextbox.BackgroundTransparency = 1
     searchtextbox.ClipsDescendants = true
     searchtextbox.Position = UDim2.new(0.180257514, 0, -0.0162218884, 0)
@@ -219,7 +219,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     sidebar.Name = "sidebar"
     sidebar.Parent = main
     sidebar.Active = true
-    sidebar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    sidebar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     sidebar.BackgroundTransparency = 1
     sidebar.BorderSizePixel = 0
     sidebar.Position = UDim2.new(0.0249653254, 0, 0.181506842, 0)
@@ -257,7 +257,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local buttons = Instance.new("Frame")
     buttons.Name = "buttons"
     buttons.Parent = main
-    buttons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    buttons.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     buttons.BackgroundTransparency = 1
     buttons.Size = UDim2.new(0, 105, 0, 57)
 
@@ -273,7 +273,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local close = Instance.new("TextButton")
     close.Name = "close"
     close.Parent = buttons
-    close.BackgroundColor3 = Color3.fromRGB(254, 94, 86)
+    close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     close.Size = UDim2.new(0, 16, 0, 16)
     close.AutoButtonColor = false
     close.Font = Enum.Font.SourceSans
@@ -293,12 +293,12 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local minimize = Instance.new("TextButton")
     minimize.Name = "minimize"
     minimize.Parent = buttons
-    minimize.BackgroundColor3 = Color3.fromRGB(255, 189, 46)
+    minimize.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     minimize.Size = UDim2.new(0, 16, 0, 16)
     minimize.AutoButtonColor = false
     minimize.Font = Enum.Font.SourceSans
     minimize.Text = ""
-    minimize.TextColor3 = Color3.fromRGB(255, 50, 50)
+    minimize.TextColor3 = Color3.fromRGB(0, 0, 0)
     minimize.TextSize = 14
 
 
@@ -310,12 +310,12 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local resize = Instance.new("TextButton")
     resize.Name = "resize"
     resize.Parent = buttons
-    resize.BackgroundColor3 = Color3.fromRGB(39, 200, 63)
+    resize.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     resize.Size = UDim2.new(0, 16, 0, 16)
     resize.AutoButtonColor = false
     resize.Font = Enum.Font.SourceSans
     resize.Text = ""
-    resize.TextColor3 = Color3.fromRGB(255, 50, 50)
+    resize.TextColor3 = Color3.fromRGB(0, 0, 0)
     resize.TextSize = 14
 
     local uc_20 = Instance.new("UICorner")
@@ -328,7 +328,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local title = Instance.new("TextLabel")
     title.Name = "title"
     title.Parent = main
-    title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     title.BackgroundTransparency = 1
     title.BorderSizePixel = 2
     title.Position = UDim2.new(0.389000326, 0, 0.0351027399, 0)
@@ -345,7 +345,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     notif.Name = "notif"
     notif.Parent = main
     notif.AnchorPoint = Vector2.new(0.5, 0.5)
-    notif.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    notif.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     notif.Position = UDim2.new(0.5, 0, 0.5, 0)
     notif.Size = UDim2.new(0, 304, 0, 362)
     notif.Visible = false
@@ -358,7 +358,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local notificon = Instance.new("ImageLabel")
     notificon.Name = "notificon"
     notificon.Parent = notif
-    notificon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    notificon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     notificon.BackgroundTransparency = 1
     notificon.Position = UDim2.new(0.335526317, 0, 0.0994475111, 0)
     notificon.Size = UDim2.new(0, 100, 0, 100)
@@ -375,7 +375,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     notifbutton1.ZIndex = 3
     notifbutton1.Font = Enum.Font.Gotham
     notifbutton1.Text = "OK"
-    notifbutton1.TextColor3 = Color3.fromRGB(255, 255, 255)
+    notifbutton1.TextColor3 = Color3.fromRGB(0, 0, 0)
     notifbutton1.TextSize = 21
 
     local uc_12 = Instance.new("UICorner")
@@ -409,7 +409,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local notiftitle = Instance.new("TextLabel")
     notiftitle.Name = "notiftitle"
     notiftitle.Parent = notif
-    notiftitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    notiftitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     notiftitle.BackgroundTransparency = 1
     notiftitle.Position = UDim2.new(0.167763159, 0, 0.375690609, 0)
     notiftitle.Size = UDim2.new(0, 200, 0, 50)
@@ -422,7 +422,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local notiftext = Instance.new("TextLabel")
     notiftext.Name = "notiftext"
     notiftext.Parent = notif
-    notiftext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    notiftext.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     notiftext.BackgroundTransparency = 1
     notiftext.Position = UDim2.new(0.0822368413, 0, 0.513812184, 0)
     notiftext.Size = UDim2.new(0, 254, 0, 66)
@@ -439,7 +439,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     notif2.Name = "notif2"
     notif2.Parent = main
     notif2.AnchorPoint = Vector2.new(0.5, 0.5)
-    notif2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    notif2.BackgroundColor3 = Color3.fromRGB((0, 0, 0)
     notif2.Position = UDim2.new(0.5, 0, 0.5, 0)
     notif2.Size = UDim2.new(0, 304, 0, 362)
     notif2.Visible = false
@@ -463,7 +463,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local notif2title = Instance.new("TextLabel")
     notif2title.Name = "notif2title"
     notif2title.Parent = notif2
-    notif2title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    notif2title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     notif2title.BackgroundTransparency = 1
     notif2title.Position = UDim2.new(0.167763159, 0, 0.375690609, 0)
     notif2title.Size = UDim2.new(0, 200, 0, 50)
@@ -477,7 +477,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local notif2text = Instance.new("TextLabel")
     notif2text.Name = "notif2text"
     notif2text.Parent = notif2
-    notif2text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    notif2text.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     notif2text.BackgroundTransparency = 1
     notif2text.Position = UDim2.new(0.0822368413, 0, 0.513812184, 0)
     notif2text.Size = UDim2.new(0, 254, 0, 66)
@@ -492,7 +492,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local notif2button1 = Instance.new("TextButton")
     notif2button1.Name = "notif2button1"
     notif2button1.Parent = notif2
-    notif2button1.BackgroundColor3 = Color3.fromRGB(21, 103, 251)
+    notif2button1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     notif2button1.Position = UDim2.new(0.0559210517, 0, 0.715469658, 0)
     notif2button1.Size = UDim2.new(0, 270, 0, 40)
     notif2button1.ZIndex = 3
