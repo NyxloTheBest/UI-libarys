@@ -167,6 +167,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     workareacornerhider.Size = UDim2.new(0, 18, 0.99895674, 0)
 
 
+
     -- searchbar
 
     local search = Instance.new("Frame")
