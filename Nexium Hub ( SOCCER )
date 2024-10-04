@@ -77,7 +77,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         sicon.TileSize = UDim2.new(1, 0, 20, 0)
 
         local ug = Instance.new("UIGradient")
-        ug.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.01, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.47, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+        ug.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255,255)), ColorSequenceKeypoint.new(0.01, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.47, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
         ug.Rotation = 90
         ug.Parent = sicon
 
@@ -155,7 +155,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local workarea = Instance.new("Frame")
     workarea.Name = "workarea"
     workarea.Parent = main
-    workarea.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    workarea.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     workarea.Position = UDim2.new(0.36403501, 0, 0, 0)
     workarea.Size = UDim2.new(0, 458, 0, 584)
 
